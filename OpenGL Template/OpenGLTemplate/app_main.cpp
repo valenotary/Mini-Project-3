@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <vector>
 #if defined WIN32
 #include <freeglut.h>
 #elif defined __APPLE__
@@ -11,8 +11,41 @@
 
 using namespace std;
 
+class Square {
+	float x, y, s;
+public:
+	Square(): x(0), y(0), s(0.05) {}
+	Square(float x, float y) : s(0.15){
+		this->x = x * .2;
+		this->y = y * .2;
+
+	}
+
+	//Print the coordinates (for my own testing)
+	void printCoordinates() {
+		cout << x << endl;
+		cout << y << endl;
+		cout << x + s << endl;
+		cout << y + s << endl;
+	}
+
+	//How each square will be drawn in the appDrawScene method
+	void draw() {
+		glBegin(GL_POLYGON);
+
+		glVertex2f((x), (y));
+		glVertex2f((x), (y) - s);
+		glVertex2f((x) + s, (y) - s);
+		glVertex2f((x) + s, (y));
+
+		glEnd();
+	}
+};
+
 // Store the width and height of the window
 int width = 640, height = 640;
+
+vector< vector<Square*> > grid;
 
 //-------------------------------------------------------
 // A function to draw the scene
@@ -29,6 +62,13 @@ void appDrawScene() {
 	glLoadIdentity();
 
     // Draw stuff here
+
+	//Grid of Squares 
+	for (int i = 0; i < grid.size(); i++) {
+		for (int j = 0; j < grid[i].size(); j++) {
+			grid[i][j]->draw();
+		}
+	}
 	
 
 	// We have been drawing everything to the back buffer
@@ -145,6 +185,16 @@ void appMotionFunc(int x, int y) {
 //	x, y - coordinates of the mouse when key is pressed
 //-------------------------------------------------------
 void appKeyboardFunc(unsigned char key, int x, int y) {
+
+	if (key == 27) {
+		for (int i = 0; i < grid.size(); i++) {
+			for (int j = 0; j < grid[i].size(); j++) {
+				delete grid[i][j];
+				cout << "Deleted Square @" << i << " " << j << endl;
+			}
+		}
+		exit(0);
+	}
 	
 
 	// After all the state changes, redraw the scene
@@ -157,10 +207,21 @@ int main(int argc, char** argv) {
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_DOUBLE | GLUT_DEPTH);
 
+	// Initialize the grid
+	grid.resize(3);
+	for (int i = 0; i < 3; i++) {
+		grid[i].resize(3);
+		for (int j = 0; j < 3; j++) {
+			grid[i][j] = new Square(i, j);
+			cout << "Square @ " << i << " " << j << endl;
+			grid[i][j]->printCoordinates();
+		}
+	}
+
 	// Setup window position, size, and title
 	glutInitWindowPosition(20, 60);
 	glutInitWindowSize(width, height);
-	glutCreateWindow("CSE165 OpenGL Demo");
+	glutCreateWindow("Tic Tac Toe");
 
 	// Setup some OpenGL options
 	glEnable(GL_DEPTH_TEST);
