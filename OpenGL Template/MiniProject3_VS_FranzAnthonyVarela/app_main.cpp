@@ -423,6 +423,25 @@ void appKeyboardFunc(unsigned char key, int x, int y) {
 		}
 		exit(0);
 	}
+
+	if (key == 'r') {
+		for (int i = 0; i < grid.size(); i++) {
+			for (int j = 0; j < grid[i].size(); j++) {
+				grid[i][j]->xTurn = false;
+				grid[i][j]->oTurn = false;
+				grid[i][j]->clicked = false;
+			}
+		}
+		p1W = false;
+		p2W = false;
+		gameOver = false;
+		turn = true;
+		PvAI = false;
+		PvP = false;
+		menu = true;
+		moves = 0;
+		cout << "Resetting..." << endl;
+	}
 	
 
 	// After all the state changes, redraw the scene

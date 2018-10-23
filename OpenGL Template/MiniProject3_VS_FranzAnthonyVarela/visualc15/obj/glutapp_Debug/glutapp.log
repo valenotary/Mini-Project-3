@@ -22,5 +22,7 @@ c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl temp
 c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(344): warning C4018: '<': signed/unsigned mismatch
 c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(418): warning C4018: '<': signed/unsigned mismatch
 c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(419): warning C4018: '<': signed/unsigned mismatch
-c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(458): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(428): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(429): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(477): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   glutapp.vcxproj -> C:\Users\valen\OneDrive\Documents\Processing\Projects\Mini-Project-3\OpenGL Template\MiniProject3_VS_FranzAnthonyVarela\visualc15\obj\glutapp_Debug\glutapp.exe
