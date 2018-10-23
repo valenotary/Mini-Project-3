@@ -1,0 +1,26 @@
+﻿  app_main.cpp
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(24): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(27): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(28): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(29): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(69): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(70): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(71): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(113): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(129): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(190): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(196): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(200): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(202): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(203): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(213): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(217): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(221): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(329): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(330): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(342): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(344): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(418): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(419): warning C4018: '<': signed/unsigned mismatch
+c:\users\valen\onedrive\documents\processing\projects\mini-project-3\opengl template\miniproject3_vs_franzanthonyvarela\app_main.cpp(458): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  glutapp.vcxproj -> C:\Users\valen\OneDrive\Documents\Processing\Projects\Mini-Project-3\OpenGL Template\MiniProject3_VS_FranzAnthonyVarela\visualc15\obj\glutapp_Debug\glutapp.exe
